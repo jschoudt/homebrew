@@ -1,0 +1,307 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KPKrakovanRebel",
+				"abbreviation": "KP:MHH",
+				"color": "ff00ff",
+				"full": "Midgard Heroes Handbook",
+				"authors": [
+					"Wolfgang Baur",
+					"Kobold Press"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1705253431,
+		"dateLastModified": 1705253431,
+		"_dateLastModifiedHash": ""
+	},
+	"background": [
+		{
+			"name": "Krakovan Rebel",
+			"source": "KPKrakovanRebel",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Deception}, {@skill Stealth}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Forgery kit, Thieves' tools"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A bag of ball bearings, 50 feet of silk rope, a set of dark common clothes including a hood, and a belt pouch containing 10 gp."
+						}
+					]
+				},
+				{
+					"name": "Origin",
+					"type": "entries",
+					"entries": [
+						"All sorts of Krakovans have joined the resistance and thrown their lot in with Queen Urzula. Choose your origin or roll on the table below.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Origin"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Fisherman"
+								],
+								[
+									"2",
+									"Peasant"
+								],
+								[
+									"3",
+									"Artisan"
+								],
+								[
+									"4",
+									"Merchant"
+								],
+								[
+									"5",
+									"Priest of Wotan or Sif"
+								],
+								[
+									"6",
+									"Hussar or knight of the Order of the Storm"
+								],
+								[
+									"7",
+									"Member of the \"mice\", the Krakovan spy network."
+								],
+								[
+									"8",
+									"Noble member of the Slahta"
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Feature: Rebel Network",
+					"type": "entries",
+					"entries": [
+						"You have secret resistance connections throughout Krakovar that you can call upon for assistance when you identify yourself to them with the correct code word. These agents and sympathisers will do their best to provide you with a safe house or other place to hide, keep you out of trouble with the authorities, and give you useful information, but they won’t risk their own lives for you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"The rebel numbers include a mixed bag of diverse personalities and character traits. Some fighters experienced the horror of seeing their families killed by the undead and have sworn to carry out swift and violent revenge. Others adopt a more considered approach, acting with subtlety and only after careful planning. Resistance fighters are dedicated to the overthrow of the vampires and the restoration of the Electoral Kingdom, and this is nearly always reflected in their ideals and bonds.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I pray to Wotan every night to free our land from the eternal night that has fallen upon it."
+								],
+								[
+									"2",
+									"I love the smell of alchemist’s fire in the morning."
+								],
+								[
+									"3",
+									"I’m happy to talk to people from all walks of life, as long as they share my belief in freedom."
+								],
+								[
+									"4",
+									"Now is the time for action, not words."
+								],
+								[
+									"5",
+									"I prefer to think things through before acting."
+								],
+								[
+									"6",
+									"I would gladly die for my comrades, just as Sister Adelind did at Yarosbirg."
+								],
+								[
+									"7",
+									"However bleak things get, there is always hope."
+								],
+								[
+									"8",
+									"I don’t trust people I don’t know well. They could be spying for the dead."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Greater Good. We must help those who can’t help themselves. (Good)"
+								],
+								[
+									"2",
+									"Freedom. The rule of the so-called Protector and her foul legions must be brought to an end. (Chaotic)"
+								],
+								[
+									"3",
+									"Tradition. The constitution of our great nation must be restored and power returned to the Slahta. (Lawful)"
+								],
+								[
+									"4",
+									"Greed. I want to make money, and the vampires are cramping my style. (Evil)"
+								],
+								[
+									"5",
+									"Nation. My kingdom and my queen are all that matter. (Any)"
+								],
+								[
+									"6",
+									"People. I joined the resistance to help the folks from my village, not a queen who handed the throne to a vampire. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I must save my village from the terror of the Blood Sisters."
+								],
+								[
+									"2",
+									"My sibling saved me when the darakhul soldiers attacked, and I cannot ever repay that debt."
+								],
+								[
+									"3",
+									"I fight for the rightful Queen of Krakova."
+								],
+								[
+									"4",
+									"I rescued my neighbor’s young children from the undead army, and now I must keep them safe."
+								],
+								[
+									"5",
+									"I have a notebook filled with the names of resistance cell leaders. It must not fall into enemy hands."
+								],
+								[
+									"6",
+									"I will get my revenge on the shroud-eater who stole away my childhood sweetheart."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My hatred for the undead makes me reckless."
+								],
+								[
+									"2",
+									"I feel much braver when I’ve had a few drinks."
+								],
+								[
+									"3",
+									"I can get caught up in the excitement of the mission and lose track of our objective."
+								],
+								[
+									"4",
+									"The end justifies the means. Sometimes that means a few innocent lives will be lost."
+								],
+								[
+									"5",
+									"I’m a sucker for a pretty face."
+								],
+								[
+									"6",
+									"I grew up poor and find it hard to resist the lure of a bag of shiny coins."
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"forgery kit": true,
+					"thieves' tools": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "a bag of ball bearings"
+						},
+						{
+							"special": "50' Silk Rope"
+						},
+						{
+							"special": "A set of dark common clothes including a hood"
+						},
+						{
+							"special": "pouch",
+							"containsValue": 1000
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,255 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KPProphet",
+				"abbreviation": "KP:MHH",
+				"color": "ff00ff",
+				"full": "Midgard Heroes Handbook",
+				"authors": [
+					"Wolfgang Baur",
+					"Kobold Press"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1705258351,
+		"dateLastModified": 1705258351,
+		"_dateLastModifiedHash": ""
+	},
+	"background": [
+		{
+			"name": "Prophet",
+			"source": "KPProphet",
+			"skillProficiencies": [
+				{
+					"religion": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Religion}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice from the following list appropriate to the power that grants your revelations: Abyssal, Celestial, Deep Speech, Draconic, Elemental (one dialect), Infernal, or Sylvan"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One of your choice between calligrapher's supplies or painter's supplies."
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A holy symbol or idol representing the higher power that grants your revelations, a set of common clothes, a collection of your recorded thoughts and philosophy, and a belt pouch containing 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Words from on High",
+					"type": "entries",
+					"entries": [
+						"You have seen the truth, and your word brings that truth into the world. More important, that truth stirs others to action. People who hear and accept your words are moved to action. Such individuals will lend aid and offer their services toward your cause, whether that involves building a new temple, clearing storm damage, or feeding the hungry. They won’t take undue risk, however. Temples and other religious organizations commonly accept prophets of their faith, but noble houses, merchants, trade guilds, and any other organization might share their resources. Additionally, you can secure audiences with powerful individuals or invitations to events that normally exist above your station. From those who fear or oppose your vision you can expect social hostility, though some might fear to act directly against you.",
+						"Work with the GM to determine the source and subject of your revelations, and what sorts of people they appeal to or offend."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Courtesans must fight tooth and nail for their position of privilege and take pride in their newfound social power. A courtesan likely rose from poverty into great wealth predicated upon her beauty and charm.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am usually soft-spoken, but I become invigorated when spreading my word."
+								],
+								[
+									"2",
+									"My followers are like my family."
+								],
+								[
+									"3",
+									"I enjoy debating the finer points of my revelations, especially with nonbelievers."
+								],
+								[
+									"4",
+									"Nonbelievers sadden me when they deny my words."
+								],
+								[
+									"5",
+									"I see the truth of my words at work in everyday things."
+								],
+								[
+									"6",
+									"I am uncomfortable outside the confines of a place devoted to my faith."
+								],
+								[
+									"7",
+									"My temper is short when my visions are challenged."
+								],
+								[
+									"8",
+									"Those who refuse to believe in higher powers that govern the world confuse me."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Tenacity. The truth must ring throughout the world. (Any)"
+								],
+								[
+									"2",
+									"Revolution. The word brings change that can’t be denied. (Chaotic)"
+								],
+								[
+									"3",
+									"Dominion. Mine is the voice that speaks truth, and mine is the word all shall heed. (Evil)"
+								],
+								[
+									"4",
+									"Stability. My teachings offer the promise of a better life, and I seek to build that life for those who share my belief. (Lawful)"
+								],
+								[
+									"5",
+									"Hope. My revelations bring light to the dark corners of the world. (Good)"
+								],
+								[
+									"6",
+									"Fortitude. The message I bear upsets me, but I trust in my higher power. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I must protect the scrap of ancient writing that first revealed the truth to me at all costs."
+								],
+								[
+									"2",
+									"The person who stood by my side when the truth first came upon me is the person I hold most dear in this world."
+								],
+								[
+									"3",
+									"I will have revenge on the rival who turned my church against my revelation."
+								],
+								[
+									"4",
+									"I was a sinner before my revelation, and I work tirelessly to make up for my dark past."
+								],
+								[
+									"5",
+									"I know that a rival faith is based on lies, and I seek to enlighten its believers through my revelation."
+								],
+								[
+									"6",
+									"An entire order within my faith once preached the truth of my revelation, but I am the last of them."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"In the depths of my soul I am wracked with doubt. If I can’t reconcile my beliefs, my following will suffer."
+								],
+								[
+									"2",
+									"My devotion to my revelations overrides all else, even to the point of jeopardizing my own safety."
+								],
+								[
+									"3",
+									"I have done something terrible in defense of my revelations that remains secret. For now."
+								],
+								[
+									"4",
+									"I am completely dismissive of anyone who doesn’t accept my revelations."
+								],
+								[
+									"5",
+									"I secretly hope that someone will silence me before the dread truth I speak comes to pass."
+								],
+								[
+									"6",
+									"A rival of my faith speaks out against my revelations with a contradictory prophecy and hunts me across the land."
+								]
+							]
+						}
+					]
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "A holy symbol or idol representing the higher power that grants your revelations"
+						},
+						{
+							"special": "common clothes"
+						},
+						{
+							"special": "a collection of your recorded thoughts and philosophy"
+						},
+						{
+							"special": "pouch",
+							"containsValue": 500
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,255 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KPCourtesan",
+				"abbreviation": "KP:ZG",
+				"color": "ff00ff",
+				"full": "Zobeck Gazetteer Collector's Edition",
+				"authors": [
+					"James Haeck",
+					"Kobold Press"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1693765849,
+		"dateLastModified": 1693765849,
+		"_dateLastModifiedHash": ""
+	},
+	"background": [
+		{
+			"name": "Courtesan",
+			"source": "KPCourtesan",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Deception}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Herbalism kit, One type of gaming set"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of fine clothes, a gaming set, an herbalism kit, and a coin purse containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Courtly Intrigue",
+					"type": "entries",
+					"entries": [
+						"Even though you are not of noble birth, you fit right in at upper-class social functions. You are treated as a person of noble standing by other highborn people and are privy to all the latest gossip. You easily gather rumors of important and tantalizing scandals, political maneuvers, and even major criminal activity if you spend at least 1 hour gossiping with a person of power."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Courtesans must fight tooth and nail for their position of privilege and take pride in their newfound social power. A courtesan likely rose from poverty into great wealth predicated upon her beauty and charm.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The only armor I wear is invisible, and I never take it off. It keeps people from seeing my inner fears."
+								],
+								[
+									"2",
+									"Let’s be honest—I like sex. It’s fun and it feels good."
+								],
+								[
+									"3",
+									"I tell so many white lies, I don’t even know what my real personality is anymore."
+								],
+								[
+									"4",
+									"Someday, my prince will come. I just have to wait."
+								],
+								[
+									"5",
+									"I hope some big noble takes me under his wing and makes me famous some day."
+								],
+								[
+									"6",
+									"The palace is so pretty. I could live around beautiful things forever."
+								],
+								[
+									"7",
+									"I wish I didn’t have to meet people . . . I get so anxious about every little thing."
+								],
+								[
+									"8",
+									"Life is short and painful and then you die. I might as well have a great time while I’m here!"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Loyalty. I would never betray the trust of my benefactor, or my friends. (Lawful)"
+								],
+								[
+									"2",
+									"Profit. I’ve become rich pitting these blockheaded aristocrats against one another. (Chaos)"
+								],
+								[
+									"3",
+									"Comfort. When you strip away all the ego and lies, everyone’s broken and looking for someone to make them feel good. I’ll be that person. (Good)"
+								],
+								[
+									"4",
+									"Truth. My word is my bond. Someone in this godsforsaken profession has to be honest. (Any)"
+								],
+								[
+									"5",
+									"Theft. Oh, my last patron’s precious jewels went missing? How careless. (Evil)"
+								],
+								[
+									"6",
+									"Chaos. I spread rumors for fun. I love seeing these petty nobles run around like headless fowl. (Chaotic)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My benefactor is a kind noblewoman. I would not see her harmed or slandered."
+								],
+								[
+									"2",
+									"I answer to only one person, and that person is me."
+								],
+								[
+									"3",
+									"The mob has dirt on me and my family. They take every bit of money I earn."
+								],
+								[
+									"4",
+									"I have a second job as a dancer at a tavern. Those people are my real family."
+								],
+								[
+									"5",
+									"I have a kid in a village in the Cantons. I have to feed her somehow."
+								],
+								[
+									"6",
+									"My old mother needs the money I give her each month, but she would die if she learned about my profession."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I learn all these secrets and bits of gossip, but my memory is so bad, I . . . uh, sorry, what was I talking about?"
+								],
+								[
+									"2",
+									"I always blurt out something stupid at the wrong time!"
+								],
+								[
+									"3",
+									"There’s someone hunting me . . . someone I crossed years ago."
+								],
+								[
+									"4",
+									"I’m worried I caught something last week. I feel queasy all the time . . . and it’s only getting worse."
+								],
+								[
+									"5",
+									"I take everything as a criticism, and I’m not good at keeping my temper in check."
+								],
+								[
+									"6",
+									"None of the lords of court will invite me back with them, just because I don’t like sex. Can’t we just cuddle and drink wine while I extract state secrets from you?"
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"special": "a gaming set"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "fine clothes"
+						},
+						{
+							"special": "pouch",
+							"containsValue": 1500
+						}
+					]
+				}
+			]
+		}
+	]
+}
